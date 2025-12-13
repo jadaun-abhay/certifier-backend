@@ -19,7 +19,7 @@ The project supports **multiple users**, **authentication**, **certificate templ
 ## 🏗️ Tech Stack
 
 * **Backend**: Django, Django REST Framework
-* **Database**: (Configured via environment variables)
+* **Database**: PostgreSQL (Configured via environment variables)
 * **Containerization**: Docker & Docker Compose
 * **Environment Management**: `.env` files
 
@@ -46,7 +46,7 @@ certifier-backend/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/certifier-backend.git
+git clone https://github.com/jadaun-abhay/certifier-backend.git
 cd certifier-backend
 ```
 
