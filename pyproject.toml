@@ -12,3 +12,9 @@ dependencies = [
     "python-dotenv>=1.2.1",
     "uuid6>=2025.0.1",
 ]
+
+[dependency-groups]
+dev = [
+    "django-cors-headers>=4.9.0",
+    "django-sslserver-v2>=1.0",
+]
